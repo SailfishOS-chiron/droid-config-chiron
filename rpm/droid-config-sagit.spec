@@ -6,6 +6,10 @@
 %define dcd_path ./
 # Adjust this for your device
 %define pixel_ratio 2.0
+
+# Community HW adaptations need this
+%define community_adaptation 1
+
 # We assume most devices will
 %define have_modem 1
 
