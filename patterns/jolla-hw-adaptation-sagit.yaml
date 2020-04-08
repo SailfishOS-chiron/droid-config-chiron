@@ -23,6 +23,7 @@ Requires:
 
 # Telephony
 - ofono-ril-binder-plugin
+- dummy_netd
 
 # Sensors
 - hybris-libsensorfw-qt5
