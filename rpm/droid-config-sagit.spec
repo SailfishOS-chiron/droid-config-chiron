@@ -13,4 +13,7 @@
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 
+Provides: usb-moded-configs
+Obsoletes: usb-moded-defaults
+
 %include droid-configs-device/droid-configs.inc
