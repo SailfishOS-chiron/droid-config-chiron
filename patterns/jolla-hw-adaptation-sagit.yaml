@@ -88,8 +88,8 @@ Requires:
 #- jolla-mediaplayer-radio
 
 # NFC for devices using Android 8 or newer as base
-#- nfcd-binder-plugin
-#- jolla-settings-system-nfc
+- nfcd-binder-plugin
+- jolla-settings-system-nfc
 
 # For torch
 - jolla-settings-system-flashlight
