@@ -1,20 +1,20 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for sagit HW Adaptation
-Name: jolla-hw-adaptation-sagit
+Description: Pattern with packages for chiron HW Adaptation
+Name: jolla-hw-adaptation-chiron
 Requires:
-- droid-hal-sagit
-- droid-hal-sagit-img-boot
-- droid-hal-sagit-kernel-modules
-- droid-config-sagit-sailfish
-- droid-config-sagit-pulseaudio-settings
-- droid-config-sagit-policy-settings
-- droid-config-sagit-preinit-plugin
-- droid-config-sagit-flashing
-- droid-config-sagit-bluez5
-- droid-hal-version-sagit
-- droid-hal-sagit-detritus
+- droid-hal-chiron
+- droid-hal-chiron-img-boot
+- droid-hal-chiron-kernel-modules
+- droid-config-chiron-sailfish
+- droid-config-chiron-pulseaudio-settings
+- droid-config-chiron-policy-settings
+- droid-config-chiron-preinit-plugin
+- droid-config-chiron-flashing
+- droid-config-chiron-bluez5
+- droid-hal-version-chiron
+- droid-hal-chiron-detritus
 
 # Hybris packages
 - libhybris-libEGL
@@ -100,5 +100,5 @@ Requires:
 # For suspend to work with enabled Wi-Fi on newer Qualcomm devices
 - sailfish-connman-plugin-suspend
 
-Summary: Jolla HW Adaptation sagit
+Summary: Jolla HW Adaptation chiron
 

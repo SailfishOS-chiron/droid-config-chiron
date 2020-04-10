@@ -1,9 +1,9 @@
 [Unit]
-Description=Misc stuff for OnePlus 5 (cheeseburger)
+Description=Misc stuff for Mi Mix 2 (chiron)
 After=local-fs.target
 Conflicts=actdead.target factory-test.target rescue.target
 
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/bin/sh /usr/bin/droid/sagit-misc.sh
+ExecStart=/bin/sh /usr/bin/droid/chiron-misc.sh
