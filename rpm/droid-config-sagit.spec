@@ -21,3 +21,10 @@ Provides: usb-moded-configs
 Obsoletes: usb-moded-defaults
 
 %include droid-configs-device/droid-configs.inc
+
+%pretrans -p <lua>
+path = "/lib/firmware"
+st = posix.stat(path)
+if st and st.type == "link" then
+  os.remove(path)
+end
